@@ -1,0 +1,23 @@
+MySQL RPM upgrade to version 5.6.35-1.cp1156
+'pre' step running at Tue Feb  7 01:07:59 UTC 2017
+
+ERR file(s):
+-rw-r----- 1 mysql mysql 77698 Jan 12 07:50 /var/lib/mysql/host.err
+-rw-r----- 1 mysql mysql 33922 Jan 12 07:57 /var/lib/mysql/host.infowayindia.in.err
+
+Latest 'Version' line in latest file:
+Version: '5.6.34'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+
+PID file:
+-rw-rw---- 1 mysql mysql 6 Jan 12 07:57 /var/lib/mysql/host.infowayindia.in.pid
+25620
+
+Server process:
+UID        PID  PPID  C STIME TTY          TIME CMD
+mysql    25620 25484  0 Jan12 ?        00:55:15 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib64/mysql/plugin --log-error=/var/lib/mysql/host.infowayindia.in.err --open-files-limit=10000 --pid-file=/var/lib/mysql/host.infowayindia.in.pid
+
+SERVER_TO_START=true
+MySQL RPM upgrade to version 5.6.35-1.cp1156
+Upgrade/install finished at Tue Feb  7 01:13:45 UTC 2017
+
+=====
